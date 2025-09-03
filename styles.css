@@ -1,0 +1,55 @@
+.main {
+    background-color: rgb(20, 20, 20);
+}
+
+.banner {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-size: clamp(2rem, 6vw, 5rem);
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+h2 {
+    font-size: clamp(1.5rem, 4vw, 3rem);
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p {
+    font-size: clamp(0.9rem, 2vw, 1.1rem);
+    line-height: 1.6;
+    margin: 1rem auto;
+    max-width: 65ch;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.download-btn {
+    display: inline-block;
+    padding: 0.75rem 1.5rem;
+    background: white;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.gallery-img{
+    display: block;
+    width: 100%;
+}
